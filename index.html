@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Processor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        #processedText {
+            white-space: pre-wrap;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Text Processor</h1>
+
+    <!-- Form for file upload -->
+    <form id="uploadForm">
+        <input type="file" id="fileInput" accept=".txt">
+    </form>
+
+    <!-- Div to display the processed text -->
+    <div id="processedText"></div>
+
+    <!-- Script to handle the file processing -->
+    <script src="index.js">
+        
+    </script>
+
+</body>
+</html>
+
